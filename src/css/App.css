@@ -29,9 +29,10 @@
 
 .feed {
   width: 500px;
+  height: 800px;
 	
 	position: absolute;
-	top: 75px;
+	top: 475px;
 	bottom: 600px;
 	left: 0;
 	right: 0;
@@ -43,7 +44,7 @@
 
 .postForm {
   border: none;
-  margin: 20px 10px 20px 20px;
+  margin: 50px 10px 20px 20px;
 }
 
 .previewPic {

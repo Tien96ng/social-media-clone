@@ -1,5 +1,6 @@
 import React from "react";
+import { Button } from 'react-bootstrap';
 
 export default function Tweet() {
-  return <button type="button"> Tweet </button>
+  return <Button variant="outline-primary">Tweet</Button>
 }

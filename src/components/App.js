@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { Container } from "react-bootstrap";
 import "../css/App.css";
 import NavBar from "./header/Navbar";
@@ -151,3 +152,12 @@ export default class App extends Component {
     );
   }
 };
+
+App.propTypes = {
+  name: PropTypes.string,
+  profilePic: PropTypes.string,
+  bio: PropTypes.string,
+  tweets: PropTypes.number,
+  followers: PropTypes.number,
+  following: PropTypes.number,
+}

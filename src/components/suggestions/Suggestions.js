@@ -1,5 +1,4 @@
-import React, {Component} from "react";
-import { Card, Button } from "react-bootstrap";
+import React from "react";
 import Person from "./Person";
 
 

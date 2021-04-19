@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Card, Col, Row} from "react-bootstrap";
 
 export default function Profile({name, profilePic, tweets, followers, following}) {

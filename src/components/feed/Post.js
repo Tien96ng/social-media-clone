@@ -6,7 +6,7 @@ export default function Post({profilePic, name}) {
     <>
       <Row className="postForm">
         <Col sm={3}>
-          <img className="previewPic"src={profilePic} alt="profile picture" />
+          <img className="previewPic"src={profilePic} alt="profile" />
         </Col>
         <Col>
           <Row className="bold">

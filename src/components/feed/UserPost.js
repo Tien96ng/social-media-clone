@@ -8,7 +8,7 @@ export default function UserPost({placeholder, profilePic}) {
         <Form className="postForm">
           <Row>
             <Col sm={3}>
-              <img className="previewPic"src={profilePic} alt="profile picture" />
+              <img className="previewPic"src={profilePic} alt="profile" />
             </Col>
             <Col>
               <Form.Control type="text" placeholder={placeholder} />

@@ -6,7 +6,7 @@ export default function Person({name, profilePic}) {
     <>
       <Row className="personSuggest">
         <Col sm={3}>
-          <img className="previewPic"src={profilePic} alt="profile picture" />
+          <img className="previewPic"src={profilePic} alt="profile" />
         </Col>
         <Col>
           <Row className="bold left-side">

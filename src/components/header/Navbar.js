@@ -13,9 +13,11 @@ export default function NavBar() {
           <Nav.Link href="#features">Notifications</Nav.Link>
           <Nav.Link href="#pricing">Messages</Nav.Link>
         </Nav>
-        <SearchBar />
-        <Tweet />
+        <SearchBar placeholder="Search..."/>
+        <Tweet btnText="Tweet"/>
       </Navbar>
     </>
+
+
   )
 }

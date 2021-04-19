@@ -53,3 +53,30 @@
 .bold {
   font-weight: bold;
 }
+
+.suggestions {
+
+	border: lightgray solid 1px;
+  width: 18rem;
+  position: absolute;
+  top: 75px;
+  right: 500px;
+  margin: auto;
+}
+
+.personSuggest {
+  margin: 20px 10px 20px 20px;
+}
+
+.left-side {
+  margin: -10px 0 5px 10px;
+}
+
+.col-header {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.add-btn {
+  margin-top: 10px;
+}

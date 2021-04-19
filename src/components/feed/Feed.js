@@ -5,9 +5,9 @@ import Post from "./Post";
 
 export default function Feed() {
   return(
-    <>
+    <div className="feed">
       <UserPost placeholder="What's happening?" />
       <Post />
-    </>
+    </div>
   )
 }

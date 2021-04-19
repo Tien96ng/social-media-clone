@@ -13,3 +13,16 @@
 .cardFeed {
   width: 50rem;
 }
+
+#navBar {
+  margin-bottom: 20px;
+}
+
+.profile {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.profileBackground {
+  height: 100px;
+}

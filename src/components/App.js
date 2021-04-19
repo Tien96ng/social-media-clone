@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { Container, Row } from "react-bootstrap";
 import "../css/App.css";
 import NavBar from "./header/Navbar";
 import Profile from "./profile/Profile";
 import Info from "./profile/Info";
+import Feed from "./feed/Feed";
+
 
 export default class App extends Component {
 
@@ -10,8 +13,11 @@ export default class App extends Component {
     return (    
       <div>
         <NavBar />
-        <Profile />
-        <Info />
+        <Container fluid>
+          <Profile />
+          <Info />
+          <Feed />
+        </Container>
       </div>
     );
   }

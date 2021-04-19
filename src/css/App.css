@@ -26,3 +26,30 @@
 .profileBackground {
   height: 100px;
 }
+
+.feed {
+  width: 500px;
+	
+	position: absolute;
+	top: 75px;
+	bottom: 600px;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+  border: solid lightgray 1px;
+  
+}
+
+.postForm {
+  border: none;
+  margin: 20px 10px 20px 20px;
+}
+
+.previewPic {
+  height: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}

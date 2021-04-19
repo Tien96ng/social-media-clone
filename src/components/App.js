@@ -13,7 +13,7 @@ export default class App extends Component {
     return (    
       <div>
         <NavBar/>
-        <Container fluid>
+        <Container>
           <ProfileMain />
           <Feed />
           <Suggestions />
